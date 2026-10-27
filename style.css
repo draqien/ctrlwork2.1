@@ -1,0 +1,16 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+} 
+body.dark-theme {
+    background-color: #222222;
+    color: #ffffff;
+}
+.section {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
